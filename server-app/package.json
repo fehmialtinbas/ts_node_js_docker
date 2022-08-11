@@ -1,0 +1,25 @@
+{
+  "name": "insta_warez",
+  "version": "1.0.0",
+  "description": "insta_warez",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fehmialtinbas/insta_warez.git"
+  },
+  "author": "MFA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fehmialtinbas/insta_warez/issues"
+  },
+  "homepage": "https://github.com/fehmialtinbas/insta_warez#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}

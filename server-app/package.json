@@ -4,7 +4,9 @@
   "description": "insta_warez",
   "main": "app.ts",
   "scripts": {
+    "start": "NODE_PATH=./build node build/app.js",
     "serve": "nodemon app.ts",
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

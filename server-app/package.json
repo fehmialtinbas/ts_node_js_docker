@@ -2,9 +2,11 @@
   "name": "insta_warez",
   "version": "1.0.0",
   "description": "insta_warez",
-  "main": "app.js",
+  "main": "app.ts",
   "scripts": {
-    "serve": "nodemon app.js",
+    "start": "NODE_PATH=./build node build/app.js",
+    "serve": "nodemon app.ts",
+    "build": "tsc -p .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,12 @@
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.23.1",
+    "typescript": "^4.8.3"
   }
 }

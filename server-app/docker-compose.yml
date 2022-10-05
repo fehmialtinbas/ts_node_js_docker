@@ -1,12 +1,12 @@
 version: "3.7"
 
 services:
-  mfa-ts-app:
+  ts_cycle:
     build:
       context: .
       dockerfile: Dockerfile
       target: base
-    container_name: mfa-ts-app
+    container_name: ts_cycle
     expose:
       - "8088"
     ports:

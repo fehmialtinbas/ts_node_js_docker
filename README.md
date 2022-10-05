@@ -1,16 +1,16 @@
-# ts_node_js_docker
+# TS CYCLE
 
 This application directly returns your request as respond.
 
-STEP 1
+# STEP 1
 
 Clone Project
 
-STEP 2
+# STEP 2
 
 docker-compose build
 
-STEP 3
+# STEP 3
 
 docker-compose up
 

@@ -2,15 +2,15 @@
 
 This application directly returns your request as respond.
 
-# STEP 1
+# Step 1
 
 Clone Project
 
-# STEP 2
+# Step 2
 
 docker-compose build
 
-# STEP 3
+# Step 3
 
 docker-compose up
 

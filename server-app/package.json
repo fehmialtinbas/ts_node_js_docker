@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fehmialtinbas/insta_warez.git"
+    "url": "git+https://github.com/fehmialtinbas/ts_node_js_docker.git"
   },
   "author": "MFA",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fehmialtinbas/insta_warez/issues"
+    "url": "https://github.com/fehmialtinbas/ts_node_js_docker/issues"
   },
-  "homepage": "https://github.com/fehmialtinbas/insta_warez#readme",
+  "homepage": "https://github.com/fehmialtinbas/ts_node_js_docker#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",

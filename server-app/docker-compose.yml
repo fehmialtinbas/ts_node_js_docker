@@ -1,12 +1,12 @@
 version: "3.7"
 
 services:
-  mfa-warez:
+  mfa-ts-app:
     build:
       context: .
       dockerfile: Dockerfile
       target: base
-    container_name: mfa-warez
+    container_name: mfa-ts-app
     expose:
       - "8088"
     ports:
